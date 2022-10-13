@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: fliggy-integration-api
+  profiles:
+    active: local
+  jackson:
+    time-zone: Asia/Tokyo
+
+doma:
+  dialect: mysql
+  jdbc-logger: slf4j
